@@ -1,0 +1,1946 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <title>Stardew Bible</title>
+    <link rel="icon" type="image/png" href="https://stardewvalleywiki.com/mediawiki/images/thumb/b/b3/Junimo_Icon.png/32px-Junimo_Icon.png">
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+    <main>
+
+        <section id="information">
+            <div class="title-and-info-container">
+                <img src="https://stardewvalleywiki.com/mediawiki/images/5/57/Junimo.gif" alt="junimo gif">
+                <h1>Bundle Checklist</h1>
+                <img src="https://stardewvalleywiki.com/mediawiki/images/b/b8/Golden_Scroll.png" alt="Golden Scroll">
+                <p>In game, bundle progress can be checked at any time by clicking on the Golden Scroll icon at the top
+                    right of the Player Menu (above the Garbage Can and "organize" icons).</p>
+            </div>
+
+                <h2 id="sorting-h2">Sort by</h2>
+        
+        </section>
+
+        <div class="sticky-buttons">
+            <div class="button-container" id="season-buttons">
+                <p>Season: </p>
+                <button class="btn active" onclick="filterBySeason('all-seasons')"> Show all</button>
+                <button class="btn" onclick="filterBySeason('spring')"> Spring</button>
+                <button class="btn" onclick="filterBySeason('summer')"> Summer</button>
+                <button class="btn" onclick="filterBySeason('fall')"> Fall</button>                    
+                <button class="btn" onclick="filterBySeason('winter')"> Winter</button>
+            </div>
+            <div class="button-container" id="room-buttons">
+                <p>Room: </p>
+                <button class="btn active" onclick="filterSelection('all-rooms')"> Show all</button>
+                <button class="btn" onclick="filterSelection('crafts-room')"> Crafts Room</button>
+                <button class="btn" onclick="filterSelection('pantry')"> Pantry</button>
+                <button class="btn" onclick="filterSelection('fish-tank')"> Fish Tank</button>
+                <button class="btn" onclick="filterSelection('boiler-room')"> Boiler Room</button>
+                <button class="btn" onclick="filterSelection('bulletin-board')"> Bulletin Board</button>
+                <button class="btn" onclick="filterSelection('vault')"> Vault</button>
+                <button class="btn" onclick="filterSelection('abandoned-jojamart')"> Abandoned JojaMart</button>
+            </div>
+        </div>
+
+        <h2 id="crafts-room-title"><img src="https://stardewvalleywiki.com/mediawiki/images/thumb/a/ac/Green_Sleeping_Junimo.png/24px-Green_Sleeping_Junimo.png" alt="green junimo">Crafts Room</h2>
+        <section id="crafts-room">
+            <div class="bundle-container" data-seasonality="seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Spring Foraging Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/8/8a/Spring_Foraging_Bundle.png"
+                            alt="Spring Foraging Bundle">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item" data-season="spring">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/9/90/Wild_Horseradish.png/24px-Wild_Horseradish.png"
+                                alt="wild horseradish">
+                            <p>Wild Horseradish</p>
+                        </li>
+                        <li class="item" data-season="spring">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/4/4b/Daffodil.png/24px-Daffodil.png"
+                                alt="daffodil">
+                            <p>Daffodil</p>
+                        </li>
+                        <li class="item" data-season="spring">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/5/57/Leek.png/24px-Leek.png"
+                                alt="leek">
+                            <p>Leek</p>
+                        </li>
+                        <li class="item" data-season="spring">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/b/b1/Dandelion.png/24px-Dandelion.png"
+                                alt="dandelion">
+                            <p>Dandelion</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/3/39/Spring_Seeds.png/24px-Spring_Seeds.png"
+                        alt="spring seeds">
+                    <p>Spring Seeds (30)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Summer Foraging Bundle</h3>
+                </div>
+
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/f/fd/Summer_Foraging_Bundle.png"
+                            alt="Summer Foraging Bundle">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item" data-season="summer fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/c/c2/Grape.png/24px-Grape.png"
+                                alt="grape">
+                            <p>Grape</p>
+                        </li>
+                        <li class="item" data-season="summer">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/c/c6/Spice_Berry.png/24px-Spice_Berry.png"
+                                alt="spice berry">
+                            <p>Spice Berry</p>
+                        </li>
+                        <li class="item" data-season="summer">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/d/d9/Sweet_Pea.png/24px-Sweet_Pea.png"
+                                alt="sweet pea">
+                            <p>Sweet Pea</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/c/c4/Summer_Seeds.png/24px-Summer_Seeds.png"
+                        alt="summer seeds">
+                    <p>Summer Seeds (30)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Fall Foraging Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/3/3d/Fall_Foraging_Bundle.png"
+                            alt="fall foraging">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item" data-season="fall spring">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/2/2e/Common_Mushroom.png/24px-Common_Mushroom.png"
+                                alt="common mushroom">
+                            <p>Common Mushroom</p>
+                        </li>
+                        <li class="item" data-season="fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/3/3b/Wild_Plum.png/24px-Wild_Plum.png"
+                                alt="wild plum">
+                            <p>Wild Plum</p>
+                        </li>
+                        <li class="item" data-season="fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/3/31/Hazelnut.png/24px-Hazelnut.png"
+                                alt="hazelnut">
+                            <p>Hazelnut</p>
+                        </li>
+                        <li class="item" data-season="fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/2/25/Blackberry.png/24px-Blackberry.png"
+                                alt="blackberry">
+                            <p>Blackberry</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/5/55/Fall_Seeds.png/24px-Fall_Seeds.png"
+                        alt="fall seeds">
+                    <p>Fall Seeds (30)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Winter Foraging Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/1/17/Winter_Foraging_Bundle.png"
+                            alt="winter foraging">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item" data-season="winter">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/11/Winter_Root.png/24px-Winter_Root.png"
+                                alt="winter root">
+                            <p>Winter Root</p>
+                        </li>
+                        <li class="item" data-season="winter">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Crystal_Fruit.png/24px-Crystal_Fruit.png"
+                                alt="crystal fruit">
+                            <p>Crystal Fruit</p>
+                        </li>
+                        <li class="item" data-season="winter">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/3/3f/Snow_Yam.png/24px-Snow_Yam.png"
+                                alt="snow yam">
+                            <p>Snow Yam</p>
+                        </li>
+                        <li class="item" data-season="winter">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/2/2f/Crocus.png/24px-Crocus.png"
+                                alt="Crocus">
+                            <p>Crocus</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/d/dd/Winter_Seeds.png/24px-Winter_Seeds.png"
+                        alt="winter seeds">
+                    <p>Winter Seeds (30)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="non-seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Construction Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/7/7a/Construction_Bundle.png"
+                            alt="construction bundle">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/d/df/Wood.png/24px-Wood.png"
+                                alt="wood">
+                            <p>Wood (99)</p>
+                        </li>
+                        <li class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/d/df/Wood.png/24px-Wood.png"
+                                alt="wood">
+                            <p>Wood (99)</p>
+                        </li>
+                        <li class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/d/d4/Stone.png/24px-Stone.png"
+                                alt="stone">
+                            <p>Stone (99)</p>
+                        </li>
+                        <li class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/e/ed/Hardwood.png/24px-Hardwood.png"
+                                alt="hardwood">
+                            <p>Hardwood (10)</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/7/76/Charcoal_Kiln.png/24px-Charcoal_Kiln.png"
+                        alt="charcoal kiln">
+                    <p>Charcoal Kiln (1)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="non-seasonal">               
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Exotic Foraging Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/5/5a/Exotic_Foraging_Bundle.png"
+                            alt="exotic">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="coconut">Coconut</option>
+                                <option value="cactus fruit">Cactus Fruit</option>
+                                <option value="cave carrot">Cave Carrot</option>
+                                <option value="red mushroom" data-season="fall">Red Mushroom</option>
+                                <option value="purple mushroom" data-season="fall">Purple Mushroom</option>
+                                <option value="maple syrup">Maple Syrup</option>
+                                <option value="oak resin">Oak Resin</option>
+                                <option value="pine tar">Pine Tar</option>
+                                <option value="morel">Morel</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="coconut">Coconut</option>
+                                <option value="cactus fruit">Cactus Fruit</option>
+                                <option value="cave carrot">Cave Carrot</option>
+                                <option value="red mushroom" data-season="fall">Red Mushroom</option>
+                                <option value="purple mushroom" data-season="fall">Purple Mushroom</option>
+                                <option value="maple syrup">Maple Syrup</option>
+                                <option value="oak resin">Oak Resin</option>
+                                <option value="pine tar">Pine Tar</option>
+                                <option value="morel">Morel</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="coconut">Coconut</option>
+                                <option value="cactus fruit">Cactus Fruit</option>
+                                <option value="cave carrot">Cave Carrot</option>
+                                <option value="red mushroom" data-season="fall">Red Mushroom</option>
+                                <option value="purple mushroom" data-season="fall">Purple Mushroom</option>
+                                <option value="maple syrup">Maple Syrup</option>
+                                <option value="oak resin">Oak Resin</option>
+                                <option value="pine tar">Pine Tar</option>
+                                <option value="morel">Morel</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="coconut">Coconut</option>
+                                <option value="cactus fruit">Cactus Fruit</option>
+                                <option value="cave carrot">Cave Carrot</option>
+                                <option value="red mushroom" data-season="fall">Red Mushroom</option>
+                                <option value="purple mushroom" data-season="fall">Purple Mushroom</option>
+                                <option value="maple syrup">Maple Syrup</option>
+                                <option value="oak resin">Oak Resin</option>
+                                <option value="pine tar">Pine Tar</option>
+                                <option value="morel">Morel</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/f/f4/Autumn%27s_Bounty.png/24px-Autumn%27s_Bounty.png"
+                        alt="dish">
+                    <p>Autumn's Booty (5)</p>
+                </div>
+            </div>
+        </section>
+
+        <h2 id="pantry-title"><img src="https://stardewvalleywiki.com/mediawiki/images/thumb/7/7e/Red_Sleeping_Junimo.png/24px-Red_Sleeping_Junimo.png" alt="red junimo"> Pantry</h2>
+        <section id="pantry">
+            <div class="bundle-container" data-seasonality="seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Spring Crops Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/5/51/Spring_Crops_Bundle.png"
+                            alt="spring crops">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item" data-season="spring">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/d/db/Parsnip.png/24px-Parsnip.png"
+                                alt="parsnip">
+                            <p>Parsnip</p>
+                        </li>
+                        <li class="item" data-season="spring">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/5/5c/Green_Bean.png/24px-Green_Bean.png"
+                                alt="green bean">
+                            <p>Green Bean</p>
+                        </li>
+                        <li class="item" data-season="spring">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/a/aa/Cauliflower.png/24px-Cauliflower.png"
+                                alt="Cauliflower">
+                            <p>Cauliflower</p>
+                        </li>
+                        <li class="item" data-season="spring">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/c/c2/Potato.png/24px-Potato.png"
+                                alt="Potato">
+                            <p>Potato</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/9/94/Speed-Gro.png/24px-Speed-Gro.png"
+                        alt="speed gro">
+                    <p>Speed-Gro (20)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Summer Crops Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/2/27/Summer_Crops_Bundle.png"
+                            alt="summer crops">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item" data-season="summer">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/9/9d/Tomato.png/24px-Tomato.png"
+                                alt="tomato">
+                            <p>Tomato</p>
+                        </li>
+                        <li class="item" data-season="summer">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/f/f1/Hot_Pepper.png/24px-Hot_Pepper.png"
+                                alt="hot pepper">
+                            <p>Hot Pepper</p>
+                        </li>
+                        <li class="item" data-season="summer">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/9/9e/Blueberry.png/24px-Blueberry.png"
+                                alt="blueberry">
+                            <p>Blueberry</p>
+                        </li>
+                        <li class="item" data-season="summer">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/19/Melon.png/24px-Melon.png"
+                                alt="melon">
+                            <p>Melon</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/a/af/Quality_Sprinkler.png/24px-Quality_Sprinkler.png"
+                        alt="quality sprinkler">
+                    <p>Quality Sprinkler (1)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Fall Crops Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/0/0d/Fall_Crops_Bundle.png"
+                            alt="fall crops">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item" data-season="fall summer">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/f/f8/Corn.png/24px-Corn.png"
+                                alt="corn">
+                            <p>Corn</p>
+                        </li>
+                        <li class="item" data-season="fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/8/8f/Eggplant.png/24px-Eggplant.png"
+                                alt="eggplant">
+                            <p>Eggplant</p>
+                        </li>
+                        <li class="item" data-season="fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/6/64/Pumpkin.png/24px-Pumpkin.png"
+                                alt="pumpkin">
+                            <p>Pumpkin</p>
+                        </li>
+                        <li class="item" data-season="fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/5/52/Yam.png/24px-Yam.png"
+                                alt="yam">
+                            <p>Yam</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/c/ce/Bee_House.png/24px-Bee_House.png"
+                        alt="bee house">
+                    <p>Bee House (1)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="non-seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Quality Crops Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/8/86/Quality_Crops_Bundle.png"
+                            alt="quality crops">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="parsnip" data-season="spring">5 Gold quality Parsnips</option>
+                                <option value="melon" data-season="summer">5 Gold quality Melons</option>
+                                <option value="pumpkin" data-season="fall">5 Gold quality Pumpkins</option>
+                                <option value="corn" data-season="summer fall">5 Gold quality Corn</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="parsnip" data-season="spring">5 Gold quality Parsnips</option>
+                                <option value="melon" data-season="summer">5 Gold quality Melons</option>
+                                <option value="pumpkin" data-season="fall">5 Gold quality Pumpkins</option>
+                                <option value="corn" data-season="summer fall">5 Gold quality Corn</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="parsnip" data-season="spring">5 Gold quality Parsnips</option>
+                                <option value="melon" data-season="summer">5 Gold quality Melons</option>
+                                <option value="pumpkin" data-season="fall">5 Gold quality Pumpkins</option>
+                                <option value="corn" data-season="summer fall">5 Gold quality Corn</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/1e/Preserves_Jar.png/24px-Preserves_Jar.png"
+                        alt="preserves jar">
+                    <p>Preserves Jar (1)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="non-seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Animal Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/5/52/Animal_Bundle.png"
+                            alt="animal bundle">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="milk">Large Milk</option>
+                                <option value="borwn-egg">Large Egg (Brown)</option>
+                                <option value="white-egg">Large Egg (White)</option>
+                                <option value="goat-milk">Large Goat Milk</option>
+                                <option value="wool">Wool</option>
+                                <option value="duck-egg">Duck Egg</option>
+                            </select>
+                        </li>
+                        <li class="item"></li>
+                        <select name="choose" id="choose">
+                            <option value="milk">Large Milk</option>
+                            <option value="brown-egg">Large Egg (Brown)</option>
+                            <option value="white-egg">Large Egg (White)</option>
+                            <option value="goat-milk">Large Goat Milk</option>
+                            <option value="wool">Wool</option>
+                            <option value="duck-egg">Duck Egg</option>
+                        </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="milk">Large Milk</option>
+                                <option value="brown-egg">Large Egg (Brown)</option>
+                                <option value="white-egg">Large Egg (White)</option>
+                                <option value="goat-milk">Large Goat Milk</option>
+                                <option value="wool">Wool</option>
+                                <option value="duck-egg">Duck Egg</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="milk">Large Milk</option>
+                                <option value="brown-egg">Large Egg (Brown)</option>
+                                <option value="white-egg">Large Egg (White)</option>
+                                <option value="goat-milk">Large Goat Milk</option>
+                                <option value="wool">Wool</option>
+                                <option value="duck-egg">Duck Egg</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="milk">Large Milk</option>
+                                <option value="brown-egg">Large Egg (Brown)</option>
+                                <option value="white-egg">Large Egg (White)</option>
+                                <option value="goat-milk">Large Goat Milk</option>
+                                <option value="wool">Wool</option>
+                                <option value="duck-egg">Duck Egg</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/7/79/Cheese_Press.png/24px-Cheese_Press.png"
+                        alt="cheese press">
+                    <p>Cheese Press (1)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="non-seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Artisan Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/7/7a/Artisan_Bundle.png" alt="artisan">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="truffle-oil">Truffle Oil</option>
+                                <option value="cloth">Cloth</option>
+                                <option value="goat-cheese">Goat Cheese</option>
+                                <option value="cheese">Cheese</option>
+                                <option value="honey">Honey</option>
+                                <option value="jelly">Jelly</option>
+                                <option value="apple" data-season="fall">Apple</option>
+                                <option value="apricot" data-season="spring">Apricot</option>
+                                <option value="orange" data-season="summer">Orange</option>
+                                <option value="peach" data-season="summer">Peach</option>
+                                <option value="pomegranate" data-season="fall">Pomegranate</option>
+                                <option value="cherry" data-season="spring">Cherry</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="truffle-oil">Truffle Oil</option>
+                                <option value="cloth">Cloth</option>
+                                <option value="goat-cheese">Goat Cheese</option>
+                                <option value="cheese">Cheese</option>
+                                <option value="honey">Honey</option>
+                                <option value="jelly">Jelly</option>
+                                <option value="apple" data-season="fall">Apple</option>
+                                <option value="apricot" data-season="spring">Apricot</option>
+                                <option value="orange" data-season="summer">Orange</option>
+                                <option value="peach" data-season="summer">Peach</option>
+                                <option value="pomegranate" data-season="fall">Pomegranate</option>
+                                <option value="cherry" data-season="spring">Cherry</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="truffle-oil">Truffle Oil</option>
+                                <option value="cloth">Cloth</option>
+                                <option value="goat-cheese">Goat Cheese</option>
+                                <option value="cheese">Cheese</option>
+                                <option value="honey">Honey</option>
+                                <option value="jelly">Jelly</option>
+                                <option value="apple" data-season="fall">Apple</option>
+                                <option value="apricot" data-season="spring">Apricot</option>
+                                <option value="orange" data-season="summer">Orange</option>
+                                <option value="peach" data-season="summer">Peach</option>
+                                <option value="pomegranate" data-season="fall">Pomegranate</option>
+                                <option value="cherry" data-season="spring">Cherry</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="truffle-oil">Truffle Oil</option>
+                                <option value="cloth">Cloth</option>
+                                <option value="goat-cheese">Goat Cheese</option>
+                                <option value="cheese">Cheese</option>
+                                <option value="honey">Honey</option>
+                                <option value="jelly">Jelly</option>
+                                <option value="apple" data-season="fall">Apple</option>
+                                <option value="apricot" data-season="spring">Apricot</option>
+                                <option value="orange" data-season="summer">Orange</option>
+                                <option value="peach" data-season="summer">Peach</option>
+                                <option value="pomegranate" data-season="fall">Pomegranate</option>
+                                <option value="cherry" data-season="spring">Cherry</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="truffle-oil">Truffle Oil</option>
+                                <option value="cloth">Cloth</option>
+                                <option value="goat-cheese">Goat Cheese</option>
+                                <option value="cheese">Cheese</option>
+                                <option value="honey">Honey</option>
+                                <option value="jelly">Jelly</option>
+                                <option value="apple" data-season="fall">Apple</option>
+                                <option value="apricot" data-season="spring">Apricot</option>
+                                <option value="orange" data-season="summer">Orange</option>
+                                <option value="peach" data-season="summer">Peach</option>
+                                <option value="pomegranate" data-season="fall">Pomegranate</option>
+                                <option value="cherry" data-season="spring">Cherry</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="truffle-oil">Truffle Oil</option>
+                                <option value="cloth">Cloth</option>
+                                <option value="goat-cheese">Goat Cheese</option>
+                                <option value="cheese">Cheese</option>
+                                <option value="honey">Honey</option>
+                                <option value="jelly">Jelly</option>
+                                <option value="apple" data-season="fall">Apple</option>
+                                <option value="apricot" data-season="spring">Apricot</option>
+                                <option value="orange" data-season="summer">Orange</option>
+                                <option value="peach" data-season="summer">Peach</option>
+                                <option value="pomegranate" data-season="fall">Pomegranate</option>
+                                <option value="cherry" data-season="spring">Cherry</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/7/7c/Keg.png/24px-Keg.png" alt="keg">
+                    <p>Keg (1)</p>
+                </div>
+            </div>
+        </section>
+
+        <h2 id="fish-tank-title"><img src="https://stardewvalleywiki.com/mediawiki/images/thumb/c/c6/Blue_Sleeping_Junimo.png/24px-Blue_Sleeping_Junimo.png" alt="blue junimo">Fish Tank</h2>
+        <section id="fish-tank">
+            <div class="bundle-container" data-seasonality="seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>River Fish Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/c/c6/River_Fish_Bundle.png"
+                            alt="river fish">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item" data-season="spring summer">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/5/56/Sunfish.png/24px-Sunfish.png"
+                                alt="sunfish">
+                            <p>Sunfish</p>
+                        </li>
+                        <li class="item" data-season="spring fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/9/99/Catfish.png/24px-Catfish.png"
+                                alt="catfish">
+                            <p>Catfish</p>
+                        </li>
+                        <li class="item" data-season="spring summer fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/e/ef/Shad.png/24px-Shad.png"
+                                alt="shad">
+                            <p>Shad</p>
+                        </li>
+                        <li class="item" data-season="fall winter">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/0/01/Tiger_Trout.png/24px-Tiger_Trout.png"
+                                alt="tiger trout">
+                            <p>Tiger Trout</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/4/43/Deluxe_Bait.png/24px-Deluxe_Bait.png"
+                        alt="deluxe bait">
+                    <p>Deluxe Bait (30)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Lake Fish Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/4/46/Lake_Fish_Bundle.png"
+                            alt="lake fish">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item" data-season="spring summer fall winter">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/11/Largemouth_Bass.png/24px-Largemouth_Bass.png"
+                                alt="largemouth bass">
+                            <p>Largemouth Bass</p>
+                        </li>
+                        <li class="item" data-season="spring summer fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/a/a8/Carp.png/24px-Carp.png"
+                                alt="carp">
+                            <p>Carp</p>
+                        </li>
+                        <li class="item" data-season="spring summer fall winter">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/d/db/Bullhead.png/24px-Bullhead.png"
+                                alt="bullhead">
+                            <p>Bullhead</p>
+                        </li>
+                        <li class="item" data-season="winter summer">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/4/42/Sturgeon.png/24px-Sturgeon.png"
+                                alt="sturgeon">
+                            <p>Sturgeon</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/e/e8/Dressed_Spinner.png/24px-Dressed_Spinner.png"
+                        alt="dressed spinner">
+                    <p>Dressed Spinner (1)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Ocean Fish Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/a/ac/Ocean_Fish_Bundle.png"
+                            alt="ocean fish">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item" data-season="spring fall winter">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/0/04/Sardine.png/24px-Sardine.png"
+                                alt="sardine">
+                            <p>Sardine</p>
+                        </li>
+                        <li class="item" data-season="winter summer">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/c/c5/Tuna.png/24px-Tuna.png"
+                                alt="tuna">
+                            <p>Tuna</p>
+                        </li>
+                        <li class="item" data-season="fall summer">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/d/d3/Red_Snapper.png/24px-Red_Snapper.png"
+                                alt="red snapper">
+                            <p>Red Snapper</p>
+                        </li>
+                        <li class="item" data-season="fall summer">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/7/73/Tilapia.png/24px-Tilapia.png"
+                                alt="tilapia">
+                            <p>Tilapia</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/2/2f/Warp_Totem_Beach.png/24px-Warp_Totem_Beach.png"
+                        alt="warp totem Beach">
+                    <p>Warp Totem: Beach (5)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Night Fishing Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/a/a7/Night_Fishing_Bundle.png"
+                            alt="night fishing">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item" data-season="fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/0/05/Walleye.png/24px-Walleye.png"
+                                alt="walleye">
+                            <p>Walleye</p>
+                        </li>
+                        <li class="item" data-season="spring summer fall winter">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/8/82/Bream.png/24px-Bream.png"
+                                alt="bream">
+                            <p>Bream</p>
+                        </li>
+                        <li class="item" data-season="spring fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/9/91/Eel.png/24px-Eel.png"
+                                alt="eel">
+                            <p>Eel</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/6/6c/Small_Glow_Ring.png/24px-Small_Glow_Ring.png"
+                        alt="glow ring">
+                    <p>Small Glow Ring (1)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="non-seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Crab Pot Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/2/22/Crab_Pot_Bundle.png" alt="crab">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="lobster">Lobster</option>
+                                <option value="crayfish">Crayfish</option>
+                                <option value="crab">Crab</option>
+                                <option value="cockle">Cockle</option>
+                                <option value="mussel">Mussel</option>
+                                <option value="shrimp">Shrimp</option>
+                                <option value="snail">Snail</option>
+                                <option value="periwinkle">Periwinkle</option>
+                                <option value="oyster">Oyster</option>
+                                <option value="clam">Clam</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="lobster">Lobster</option>
+                                <option value="crayfish">Crayfish</option>
+                                <option value="crab">Crab</option>
+                                <option value="cockle">Cockle</option>
+                                <option value="mussel">Mussel</option>
+                                <option value="shrimp">Shrimp</option>
+                                <option value="snail">Snail</option>
+                                <option value="periwinkle">Periwinkle</option>
+                                <option value="oyster">Oyster</option>
+                                <option value="clam">Clam</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="lobster">Lobster</option>
+                                <option value="crayfish">Crayfish</option>
+                                <option value="crab">Crab</option>
+                                <option value="cockle">Cockle</option>
+                                <option value="mussel">Mussel</option>
+                                <option value="shrimp">Shrimp</option>
+                                <option value="snail">Snail</option>
+                                <option value="periwinkle">Periwinkle</option>
+                                <option value="oyster">Oyster</option>
+                                <option value="clam">Clam</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="lobster">Lobster</option>
+                                <option value="crayfish">Crayfish</option>
+                                <option value="crab">Crab</option>
+                                <option value="cockle">Cockle</option>
+                                <option value="mussel">Mussel</option>
+                                <option value="shrimp">Shrimp</option>
+                                <option value="snail">Snail</option>
+                                <option value="periwinkle">Periwinkle</option>
+                                <option value="oyster">Oyster</option>
+                                <option value="clam">Clam</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="lobster">Lobster</option>
+                                <option value="crayfish">Crayfish</option>
+                                <option value="crab">Crab</option>
+                                <option value="cockle">Cockle</option>
+                                <option value="mussel">Mussel</option>
+                                <option value="shrimp">Shrimp</option>
+                                <option value="snail">Snail</option>
+                                <option value="periwinkle">Periwinkle</option>
+                                <option value="oyster">Oyster</option>
+                                <option value="clam">Clam</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/9/92/Crab_Pot.png/24px-Crab_Pot.png"
+                        alt="crab pot">
+                    <p>Crab Pot (3)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Specialty Fish Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/0/03/Specialty_Fish_Bundle.png"
+                            alt="specialty fish">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <div class="bundle-items">
+                        <div class="item" data-season="summer">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/b/ba/Pufferfish.png/24px-Pufferfish.png"
+                                alt="Pufferfish">
+                            <p>Pufferfish</p>
+                        </div>
+                        <div class="item" data-season="spring summer fall winter">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/7/72/Ghostfish.png/24px-Ghostfish.png"
+                                alt="Ghostfish">
+                            <p>Ghostfish</p>
+                        </div>
+                        <div class="item" data-season="spring summer fall winter">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/b/bb/Sandfish.png/24px-Sandfish.png"
+                                alt="Sandfish">
+                            <p>Sandfish</p>
+                        </div>
+                        <div class="item" data-season="spring summer fall winter">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/9/97/Woodskip.png/24px-Woodskip.png"
+                                alt="woodskip">
+                            <p>Woodskip</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/f/ff/Dish_O%27_The_Sea.png/24px-Dish_O%27_The_Sea.png"
+                        alt="dish o' the sea">
+                    <p>Dish O' The Sea (5)</p>
+                </div>
+            </div>
+        </section>
+
+        <h2 id="boiler-room-title"> <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/b/bb/Purple_Sleeping_Junimo.png/24px-Purple_Sleeping_Junimo.png" alt="purple junimo">Boiler Room</h2>
+        <section id="boiler-room">
+            <div class="bundle-container" data-seasonality="non-seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Blacksmith's Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/c/c8/Blacksmith_Bundle.png"
+                            alt="pickaxe">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <div class="bundle-items">
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/f/f1/Copper_Bar.png/24px-Copper_Bar.png"
+                                alt="copper bar">
+                            <p>Copper Bar</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/6/6c/Iron_Bar.png/24px-Iron_Bar.png"
+                                alt="iron bar">
+                            <p>Iron Bar</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/4/4e/Gold_Bar.png/24px-Gold_Bar.png"
+                                alt="Gold bar">
+                            <p>Gold Bar</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/0/0f/Furnace.png/24px-Furnace.png"
+                        alt="furnace">
+                    <p>Furnace (1)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="non-seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Geologist's Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/6/68/Geologist%27s_Bundle.png"
+                            alt="gems">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <div class="bundle-items">
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/c/cf/Quartz.png/24px-Quartz.png"
+                                alt="quartz">
+                            <p>Quartz</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/7/74/Earth_Crystal.png/24px-Earth_Crystal.png"
+                                alt="earth crystal">
+                            <p>Earth Crystal</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/e/ec/Frozen_Tear.png/24px-Frozen_Tear.png"
+                                alt="frozen tear">
+                            <p>Frozen Tear</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/5/5b/Fire_Quartz.png/24px-Fire_Quartz.png"
+                                alt="fire quartz">
+                            <p>Fire Quartz</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/0/09/Omni_Geode.png/24px-Omni_Geode.png"
+                        alt="omni geode">
+                    <p>Omni Geode (5)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="non-seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Adventurer's Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Adventurer%27s_Bundle.png"
+                            alt="shield and sword">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="slime">Slime (99)</option>
+                                <option value="crayfish">Bat Wing (10)</option>
+                                <option value="crab">Solar Essence</option>
+                                <option value="cockle">Void Essence</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="slime">Slime (99)</option>
+                                <option value="crayfish">Bat Wing (10)</option>
+                                <option value="crab">Solar Essence</option>
+                                <option value="cockle">Void Essence</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/2/25/Small_Magnet_Ring.png/24px-Small_Magnet_Ring.png"
+                        alt="magnet ring">
+                    <p>Small Magnet Ring (1)</p>
+                </div>
+            </div>
+        </section>
+
+        <h2 id='bulletin-board-title'> <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/3/30/Yellow_Sleeping_Junimo.png/24px-Yellow_Sleeping_Junimo.png" alt="yellow junimo"> Bulletin Board</h2>
+        <section id="bulletin-board">
+            <div class="bundle-container" data-seasonality="seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Chef's Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/e/ea/Chef%27s_Bundle.png" alt="gus">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <div class="bundle-items">
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/6/6a/Maple_Syrup.png/24px-Maple_Syrup.png"
+                                alt="maple syrup">
+                            <p>Maple Syrup</p>
+                        </div>
+                        <div class="item" data-season="summer">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/4/48/Fiddlehead_Fern.png/24px-Fiddlehead_Fern.png"
+                                alt="fiddlehead fern">
+                            <p>Fiddlehead Fern</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/f/f2/Truffle.png/24px-Truffle.png"
+                                alt="truffle">
+                            <p>Truffle</p>
+                        </div>
+                        <div class="item" data-season="summer">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/3/37/Poppy.png/24px-Poppy.png"
+                                alt="poppy">
+                            <p>Poppy</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/b/b6/Maki_Roll.png/24px-Maki_Roll.png"
+                                alt="maki roll">
+                            <p>Maki Roll</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/18/Fried_Egg.png/24px-Fried_Egg.png"
+                                alt="fried egg">
+                            <p>Fried Egg</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/3/32/Pink_Cake.png/24px-Pink_Cake.png"
+                        alt="pink cake">
+                    <p>Pink Cake (5)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Dye Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/a/a5/Dye_Bundle.png" alt="emily">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <div class="bundle-items">
+                        <div class="item" data-season="summer fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/e/e1/Red_Mushroom.png/24px-Red_Mushroom.png"
+                                alt="red mushroom">
+                            <p>Red Mushroom</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/e/e7/Sea_Urchin.png/24px-Sea_Urchin.png"
+                                alt="sea urchin">
+                            <p>Sea Urchin</p>
+                        </div>
+                        <div class="item" data-season="summer fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/8/81/Sunflower.png/24px-Sunflower.png"
+                                alt="sunflower">
+                            <p>Sunflower</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/f/f9/Duck_Feather.png/24px-Duck_Feather.png"
+                                alt="duck feather">
+                            <p>Duckfeather</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/a/a2/Aquamarine.png/24px-Aquamarine.png"
+                                alt="aquamarine">
+                            <p>Aquamarine</p>
+                        </div>
+                        <div class="item" data-season="summer">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/2/2d/Red_Cabbage.png/24px-Red_Cabbage.png"
+                                alt="red cabbage">
+                            <p>Red Cabbage</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/19/Seed_Maker.png/24px-Seed_Maker.png"
+                        alt="seed maker">
+                    <p>Seed Maker (1)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Field Research Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/8/86/Field_Research_Bundle.png"
+                            alt="demetrius">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <div class="bundle-items">
+                        <div class="item" data-season="fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/4/4b/Purple_Mushroom.png/24px-Purple_Mushroom.png"
+                                alt="purple mushroom">
+                            <p>Purple Mushroom</p>
+                        </div>
+                        <div class="item" data-season="winter">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/a/a4/Nautilus_Shell.png/24px-Nautilus_Shell.png"
+                                alt="shell">
+                            <p>Nautilus Shell</p>
+                        </div>
+                        <div class="item" data-season="spring summer fall winter">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/b/bd/Chub.png/24px-Chub.png"
+                                alt="chub">
+                            <p>Chub</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/b/bf/Frozen_Geode.png/24px-Frozen_Geode.png"
+                                alt="frozen geode">
+                            <p>Frozen Geode</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/2/26/Recycling_Machine.png/24px-Recycling_Machine.png"
+                        alt="recycling machine">
+                    <p>Recycling Machine (1)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Fodder Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/3/32/Fodder_Bundle.png" alt="marnie">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <div class="bundle-items">
+                        <div class="item" data-season="summer fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/e/e2/Wheat.png/24px-Wheat.png"
+                                alt="wheat">
+                            <p>Wheat</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/a/aa/Hay.png/24px-Hay.png"
+                                alt="hay">
+                            <p>Hay</p>
+                        </div>
+                        <div class="item" data-season="fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/7/7d/Apple.png/24px-Apple.png"
+                                alt="apple">
+                            <p>Apple</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/9/93/Heater.png/24px-Heater.png"
+                        alt="heater">
+                    <p>Heater (1)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>Enchanter's Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/6/69/Enchanter%27s_Bundle.png"
+                            alt="wizard">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <div class="bundle-items">
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/4/40/Oak_Resin.png/24px-Oak_Resin.png"
+                                alt="oak resin">
+                            <p>Oak Resin</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/6/69/Wine.png/24px-Wine.png"
+                                alt="wine">
+                            <p>Wine</p>
+                        </div>
+                        <div class="item">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/c/ca/Rabbit%27s_Foot.png/24px-Rabbit%27s_Foot.png"
+                                alt="rabbit's foot">
+                            <p>Rabbit's Foot</p>
+                        </div>
+                        <div class="item" data-season="fall">
+                            <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/1b/Pomegranate.png/24px-Pomegranate.png"
+                                alt="pomegranate">
+                            <p>Pomegranate</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/4/4e/Gold_Bar.png/24px-Gold_Bar.png"
+                        alt="gold bar">
+                    <p>Gold Bar (5)</p>
+                </div>
+            </div>
+        </section>
+
+        <h2 id="vault-title"> <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/e/e1/Orange_Sleeping_Junimo.png/24px-Orange_Sleeping_Junimo.png" alt="orange junimo">Vault</h2>
+        <section id="vault">
+            <div class="bundle-container" data-seasonality="non-seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>2,500 Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/e/e2/2500_Bundle.png" alt="2500g">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <div class="item">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png"
+                            alt="coin">
+                        <p>2,500g</p>
+                    </div>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/8/87/Chocolate_Cake.png/24px-Chocolate_Cake.png"
+                        alt="chocolate cake">
+                    <p>Chocolate Cake (3)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="non-seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>5,000 Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/1/17/5000_Bundle.png" alt="5000g">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <div class="item">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png"
+                            alt="coin">
+                        <p>5,000g</p>
+                    </div>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/a/a0/Quality_Fertilizer.png/24px-Quality_Fertilizer.png"
+                        alt="quality Fertilizer">
+                    <p>Quality Fertilizer (30)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="non-seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>10,000 Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/1/11/10000_Bundle.png" alt="10000g">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <div class="item">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png"
+                            alt="coin">
+                        <p>10,000g</p>
+                    </div>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/6/62/Lightning_Rod.png/24px-Lightning_Rod.png"
+                        alt="lightning rod">
+                    <p>Lightning Rod (1)</p>
+                </div>
+            </div>
+
+            <div class="bundle-container" data-seasonality="non-seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>25,000 Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/a/a7/25000_Bundle.png" alt="25000g">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <div class="item">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/10/Gold.png/18px-Gold.png"
+                            alt="coin">
+                        <p>25,000g</p>
+                    </div>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward:</p>
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/6/63/Crystalarium.png/24px-Crystalarium.png"
+                        alt="crystalarium">
+                    <p>Crystalarium (1)</p>
+                </div>
+            </div>
+
+        </section>
+
+        <h2> <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/15/Gray_Sleeping_Junimo.png/24px-Gray_Sleeping_Junimo.png" alt="gray junimo">Abandoned JojaMart</h2>
+        <section id="abandoned-jojamart">
+            <div class="bundle-container" data-seasonality="non-seasonal">
+                <div class="h3-container">
+                    <img src="images/stardew-scroll.png" alt="scroll">
+                    <h3>The Missing Bundle</h3>
+                </div>
+                <div class="bundle-middlesection-container">
+                    <div class="bundle-image">
+                        <img src="https://stardewvalleywiki.com/mediawiki/images/2/24/The_Missing_Bundle.png"
+                            alt="missing bundle">
+                    </div>
+                    <div class="checklist-buttons">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                        <img class="bundle-slot"
+                            src="https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png" alt="Bundle Slot">
+                    </div>
+                    <ul class="bundle-items">
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="wine">Silver or better quality Wine (any)</option>
+                                <option value="dino mayo">Dinosaur Mayonnaise</option>
+                                <option value="prim shard">Prismatic Shard</option>
+                                <option value="ancient fruit">Gold quality Ancient Fruit (5)</option>
+                                <option value="void salmon">Void Salmon</option>
+                                <option value="caviar">Caviar</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="wine">Silver or better quality Wine (any)</option>
+                                <option value="dino mayo">Dinosaur Mayonnaise</option>
+                                <option value="prim shard">Prismatic Shard</option>
+                                <option value="ancient fruit">Gold quality Ancient Fruit (5)</option>
+                                <option value="void salmon">Void Salmon</option>
+                                <option value="caviar">Caviar</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="wine">Silver or better quality Wine (any)</option>
+                                <option value="dino mayo">Dinosaur Mayonnaise</option>
+                                <option value="prim shard">Prismatic Shard</option>
+                                <option value="ancient fruit">Gold quality Ancient Fruit (5)</option>
+                                <option value="void salmon">Void Salmon</option>
+                                <option value="caviar">Caviar</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="wine">Silver or better quality Wine (any)</option>
+                                <option value="dino mayo">Dinosaur Mayonnaise</option>
+                                <option value="prim shard">Prismatic Shard</option>
+                                <option value="ancient fruit">Gold quality Ancient Fruit (5)</option>
+                                <option value="void salmon">Void Salmon</option>
+                                <option value="caviar">Caviar</option>
+                            </select>
+                        </li>
+                        <li class="item">
+                            <select name="choose" id="choose">
+                                <option value="wine">Silver or better quality Wine (any)</option>
+                                <option value="dino mayo">Dinosaur Mayonnaise</option>
+                                <option value="prim shard">Prismatic Shard</option>
+                                <option value="ancient fruit">Gold quality Ancient Fruit (5)</option>
+                                <option value="void salmon">Void Salmon</option>
+                                <option value="caviar">Caviar</option>
+                            </select>
+                        </li>
+                    </ul>
+                </div>
+                <div class="reward">
+                    <img src="https://stardewvalleywiki.com/mediawiki/images/thumb/1/16/Bundle_Reward.png/18px-Bundle_Reward.png"
+                        alt="gift">
+                    <p>Reward: Unlocks the Movie Theater</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div></div>
+    </footer>
+
+    <script>
+        var bundleSlots = document.querySelectorAll('.bundle-slot');
+
+        bundleSlots.forEach(function (bundleSlot) {
+            bundleSlot.addEventListener('click', function () {
+                if (this.alt === 'completed!') {
+                    this.src = 'https://stardewvalleywiki.com/mediawiki/images/5/5e/Bundle_Slot.png';
+                    this.alt = 'Bundle Slot';
+                } else {
+                    this.src = 'images/bundle_slot.png';
+                    this.alt = 'completed!';
+                }
+            });
+        });
+
+
+        function filterSelection(room) {
+            var buttons = document.querySelectorAll('.btn');
+
+            buttons.forEach(function(btn) {
+                btn.classList.remove('active');
+            });
+
+            event.target.classList.add('active');
+
+
+            var sections = document.querySelectorAll('section');
+            var h2Elements = document.querySelectorAll('h2');
+
+            sections.forEach(function (section) {
+                if (room === 'all-rooms') {
+                    section.style.display = 'flex';
+                } else {
+                    if (section.id === room) {
+                        section.style.display = 'flex';
+                    } else {
+                        section.style.display = 'none';
+                    }
+                }
+                if (section.id === 'information') {
+                    section.style.display = 'block';
+                }
+            });
+
+            h2Elements.forEach(function (h2) {
+                if (room === 'all-rooms' || h2.id === 'sorting-h2') {
+                    h2.style.display = 'block';
+                } else {
+                    var parentSection = h2.parentElement;
+                    if (parentSection.id === room || parentSection.id === 'information' || h2.id === room + '-title') {
+                        h2.style.display = 'block';
+                    } else {
+                        h2.style.display = 'none';
+                    }
+                }
+            });
+        }
+
+        function filterBySeason(season) {
+            var buttons = document.querySelectorAll('.btn');
+
+            buttons.forEach(function(btn) {
+                btn.classList.remove('active');
+            });
+
+            event.target.classList.add('active');
+
+
+            var bundles = document.querySelectorAll('.bundle-container');
+
+            bundles.forEach(function(bundle) {
+                var seasonality = bundle.getAttribute('data-seasonality');
+                var items = bundle.querySelectorAll('.item');
+
+                if (season === 'all-seasons') {
+                    bundle.style.display = 'flex';
+                    items.forEach(function(item) {
+                        item.style.opacity = '1';
+                    });
+                } else if (season === 'spring' || season === 'summer' || season === 'fall' || season === 'winter') {
+                    if (seasonality === 'seasonal') {
+                        bundle.style.display = 'flex';
+                        items.forEach(function(item) {
+                            var itemSeasons = item.getAttribute('data-season').split(' ');
+                            if (itemSeasons.includes(season)) {
+                                item.style.opacity = '1';
+                            } else {
+                                item.style.opacity = '0.5';
+                            }
+                        });
+                    } else {
+                        bundle.style.display = 'none';
+                    }
+                }
+            });
+        }
+
+    </script>
+
+</body>
+
+</html>

@@ -193,3 +193,39 @@ button{
     background-color:#F5D69D;
     border-color: transparent;
 }
+
+
+@media only screen and (max-width: 600px) {
+    main {
+        max-width: 100%;
+        min-width: unset;
+        padding: 0 10px;
+    }
+
+    .title-and-info-container {
+        flex-direction: column;
+    }
+    .title-and-info-container img{
+        padding-right: 20px;
+        width: 40px;
+    }
+    .title{
+        display:flex;
+        flex-direction: row;
+        padding-bottom: 20px;
+    }
+    .info{
+        display:flex;
+        flex-direction: row;
+    }
+
+    .title-and-info-container h1 {
+        width: auto;
+    }
+
+    .bundle-container {
+        max-width: 100%; 
+        min-width: unset; 
+    }
+
+}

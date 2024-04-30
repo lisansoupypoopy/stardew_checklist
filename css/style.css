@@ -20,18 +20,34 @@ main {
 
 .title-and-info-container{
     padding-top: 40px;
+    width: 100%;
     display:flex;
+    justify-content: space-between;
 }
 .title-and-info-container img{
     padding-top: 10px;
+    padding-left: 20px;
     height: min-content;
 }
 .title-and-info-container h1{
-    width: 1000px;
+    width: max-content;
+    padding-right: 70px;
 }
 .title-and-info-container p{
-    padding: 20px;
+    padding-top: 15px;
+    padding-left: 30px;
     font-size: 20px;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+}
+.title img{
+    padding-right: 20px;
+}
+.info{
+    display: flex;
+    flex-direction: row;
 }
 
 main h1{
@@ -56,6 +72,7 @@ button{
     background-color: #F4B744;
     margin-right: 20px;
     height: min-content;
+    margin-bottom: 20px;
 }
 .btn.active {
     background-color: #f4a544;
@@ -72,7 +89,6 @@ button{
 .button-container p{
     padding:3px;
     width: 80px;
-    padding-bottom: 20px;
 }
 
 .sticky-buttons{
@@ -218,13 +234,21 @@ button{
         display:flex;
         flex-direction: row;
     }
+    .info p{
+        margin-left: -30px;
+    }
 
     .title-and-info-container h1 {
         width: auto;
     }
 
+    .button-container{
+        min-width: 450px;
+        padding-top: 30px;
+    }
+
     .bundle-container {
-        max-width: 100%; 
+        max-width: 110%; 
         min-width: unset; 
     }
 

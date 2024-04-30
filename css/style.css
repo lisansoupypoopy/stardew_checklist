@@ -54,7 +54,7 @@ main h1{
     font-size: 70px;
 }
 main h2 {
-    font-size: 40px;
+    font-size: 50px;
     padding-top: 80px;
     padding-bottom: 20px;
     display: inline-flex;
@@ -62,6 +62,7 @@ main h2 {
 h2 img{
     height: 30px;
     padding: 4px;
+    padding-top: 8px;
     margin-left: 16px;
 }
 
@@ -99,16 +100,10 @@ button{
     padding-bottom: 20px;
 }
 
-#crafts-room, #pantry, #fish-tank, #boiler-room{
+#crafts-room, #pantry, #fish-tank, #vault, #abandoned-jojamart, #boiler-room, #bulletin-board{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    z-index: 10;
-}
-#vault, #bulletin-board {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: left;
     z-index: 10;
 }
 
@@ -127,7 +122,7 @@ button{
     text-align: center;
 }
 .h3-container img{
-    margin-left: -40px;
+
     height: 80px;
 }
 .h3-container h3{
